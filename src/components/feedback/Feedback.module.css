@@ -1,0 +1,26 @@
+.container {
+  margin: 30px;
+  text-align: left;
+}
+
+.btn_list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.btn_listItem {
+  margin-right: 5px;
+  padding: 3px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 0 5px lightgrey;
+  cursor: pointer;
+  /* line-height: 2rem; */
+}
+
+.counter_list {
+  padding-left: 10px;
+  list-style: none;
+  line-height: 1.5rem;
+}
