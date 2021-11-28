@@ -1,9 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Feedback from "./components/feedback/Feedback";
 
 function App() {
   return (
     <div className="App">
+      <Feedback />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
